@@ -1,12 +1,12 @@
 {
-    "name": "schooch/twitter",
+    "name": "thujohn/twitter",
     "description": "Twitter API for Laravel",
-	"keywords": ["twitter", "laravel", "laravel4", "laravel5"],
+    "keywords": ["twitter", "laravel", "laravel4", "laravel5"],
     "license": "MIT",
     "authors": [
         {
-            "name": "schooch",
-            "email": "ianlainchbury@gmail.com"
+            "name": "thujohn",
+            "email": "jonathan.thuau@gmail.com"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Schooch\\Twitter": "src/"
+            "Thujohn\\Twitter": "src/"
         }
     },
     "minimum-stability": "stable"
