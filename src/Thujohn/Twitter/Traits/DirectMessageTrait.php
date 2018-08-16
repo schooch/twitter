@@ -77,6 +77,7 @@ Trait DirectMessageTrait {
 	 */
 	public function postDm($parameters = [])
 	{
+		// This is going to stop working in a few hours
 		if ((!array_key_exists('user_id', $parameters) && !array_key_exists('screen_name', $parameters)) || !array_key_exists('text', $parameters))
 		{
 			throw new BadMethodCallException('Parameter required missing : user_id, screen_name or text');
