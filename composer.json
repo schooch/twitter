@@ -1,22 +1,29 @@
 {
-    "name": "schooch/twitter",
+    "name": "thujohn/twitter",
     "description": "Twitter API for Laravel",
-	"keywords": ["twitter", "laravel", "laravel4", "laravel5"],
+    "keywords": ["twitter", "laravel", "laravel4", "laravel5"],
     "license": "MIT",
     "authors": [
         {
-            "name": "schooch",
-            "email": "ianlainchbury@gmail.com"
+            "name": "thujohn",
+            "email": "jonathan.thuau@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/schooch/twitter"
         }
     ],
     "require": {
+        "thujohn/twitter": "dev-newDMEndPoint",
         "php": ">=5.5.0",
         "illuminate/support": "4.*|5.*",
         "themattharris/tmhoauth": "0.8.4"
     },
     "autoload": {
         "psr-0": {
-            "Schooch\\Twitter": "src/"
+            "Thujohn\\Twitter": "src/"
         }
     },
     "minimum-stability": "stable"
